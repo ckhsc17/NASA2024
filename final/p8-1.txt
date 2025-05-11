@@ -1,0 +1,21 @@
+.
+|-- @database
+|   `-- synologan
+|       `-- alert.sqlite
+`-- @iSCSI
+    |-- LUN
+    |   |-- FILE
+    |   |   `-- 00ee11d8-f6b6-412a-a34e-03c8101f2315
+    |   |       |-- minio7-lun1_00000
+    |   |       |-- minio7-lun1_00001
+    |   |       |-- minio7-lun1_00002
+    |   |       |-- minio7-lun1_00003
+    |   |       |-- minio7-lun1_00004
+    |   |       |-- minio7-lun1_00005
+    |   |       |-- minio7-lun1_00006
+    |   |       |-- minio7-lun1_00007
+    |   |       |-- minio7-lun1_00008
+    |   |       |-- minio7-lun1_00009
+    |   |       `-- minio7-lun1_00010
+    |   `-- iscsi_lun.conf
+    `-- tmp

@@ -1,0 +1,2 @@
+./test.sh: line 9: cd: -h: invalid option
+cd: usage: cd [-L|-P] [dir]

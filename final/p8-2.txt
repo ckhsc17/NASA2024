@@ -1,0 +1,115 @@
+> sudo mdadm —examine /dev/vdb3
+
+
+/dev/vdb3:
+    Magic
+    Version
+    Feature Map
+    Array UUID
+Name
+Creation Time
+Raid Level
+Raid Devices
+
+   a92b4efc
+   1.2
+   0x0
+   007e55f0:32b982f3:70e64dl4:2b9c41d2
+   RS3617RPxs_3:4
+   Sun Jun 2 13:00:45 2024
+   raidl
+   1
+
+
+Avail Dev Size
+Array Size
+Used Dev Size
+Data Offset
+Super Offset
+Unused Space
+State
+Device UUID
+
+   2729951 sectors (1332.98 MiB 1397.73 MB)
+   1364928 KiB (1332.94 MiB 1397.69 MB)
+   2729856 sectors (1332.94 MiB 1397.69 MB)
+   4096 sectors
+   8 sectors
+   before=4016 sectors, after=95 sectors
+   clean
+   b73ff792:7439c575:a2251818:64787d48
+
+
+Update Time : Sun Jun 2 13:00:45 2024
+Bad Block Log : 512 entries available at offset 16 sectors
+Checksum : 63dd8c2a - correct
+Events : 0
+
+
+
+Device Role : Active device 0
+Array State : A ('A' == active,
+
+== missing, 'R
+
+replacing
+
+I
+
+> sudo mdadm —detail /dev/md0
+
+
+/dev/md0:
+Version
+     Creation Time
+     Raid Level
+     Array Size
+     Used Dev Size
+     Raid Devices
+     Total Devices
+     Persistence
+
+   1.2
+   Sun Jun 2 13:00:45 2024
+   raidl
+   1364928 (1332.94 MiB 1397.69 MB)
+   1364928 (1332.94 MiB 1397.69 MB)
+   1
+   1
+   Superblock is persistent
+
+Update Time
+
+Active
+Working
+Failed
+Spare
+
+State
+Devices
+Devices
+Devices
+Devices
+
+Sun Jun 2 13:00:45 2024
+clean
+1
+1
+0
+0
+
+Consistency Policy : resync
+
+              Name : RS3617RPxs_3:4
+              UUID : 007e55f0:32b982f3:70e64dl4:2b9c41d2
+            Events : 0
+
+
+Number Major
+0     252
+
+Minor
+  19
+
+  RaidDevice State
+0      active sync /dev/vdb3

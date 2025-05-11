@@ -1,0 +1,2 @@
+SHA1 (debian-disk001.vmdk) = 1d4f785d53e64c585f66e63f0617ac3e8f3459b0
+SHA1 (debian.ovf) = e59e29c6ab15d7f0638c7d36bb47ba0ae1c20253

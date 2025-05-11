@@ -1,0 +1,2 @@
+link1: changed 16%
+link4: changed 40%

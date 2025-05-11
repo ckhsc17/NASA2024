@@ -1,0 +1,8 @@
+Invalid option: -c
+Usage: ./compare.sh [OPTION] <PATH A> <PATH B>
+Options:
+  -a           Compare hidden files (include files starting with a dot)
+  -h           Output information about compare.sh
+  -l           Treat symlinks as files instead of ignoring them
+  -n <EXP>     Compare only files whose paths follow the REGEX <EXP>
+  -r           Compare directories recursively

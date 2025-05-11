@@ -1,0 +1,39 @@
+arg1 and arg2 are directories
+a.out: changed 100%
+--------------------
+file: helloworld.cpp
+file_a: dir1/.code.backup/helloworld.cpp
+file_b: dir2/.code.backup/helloworld.cpp
+changed 8%
+(a,b,c): 1 1 11
+--------------------
+file: output2.txt
+file_a: dir1/.code.backup/output2.txt
+file_b: dir2/.code.backup/output2.txt
+changed 40%
+(a,b,c): 2 1 3
+a.out: changed 100%
+--------------------
+file: helloworld.cpp
+file_a: dir1/code/helloworld.cpp
+file_b: dir2/code/helloworld.cpp
+changed 8%
+(a,b,c): 1 1 11
+--------------------
+file: output2.txt
+file_a: dir1/code/output2.txt
+file_b: dir2/code/output2.txt
+changed 40%
+(a,b,c): 2 1 3
+--------------------
+file: link1
+file_a: dir1/link1
+file_b: dir2/link1
+changed 8%
+(a,b,c): 1 1 11
+--------------------
+file: run.sh
+file_a: dir1/run.sh
+file_b: dir2/run.sh
+changed 11%
+(a,b,c): 2 2 15

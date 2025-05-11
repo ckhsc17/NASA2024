@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:latest
+    #container_name: mysql
+    networks:
+      - nasa-net
+    environment:
+      MYSQL_HOST: b12705014
+      MYSQL_ROOT_PASSWORD: secret
+    #command: --default-authentication-plugin=mysql_native_password
+    restart: always
+
+  b12705014:
+    image: phpmyadmin/phpmyadmin:latest
+    #container_name: phpmyadmin
+    networks:
+      - nasa-net
+    ports:
+      - "8888:80"
+    environment:
+      PMA_HOST: mysql
+      PMA_USER: root
+      PMA_PASSWORD: secret
+    restart: always
+
+networks:
+  nasa-net:
